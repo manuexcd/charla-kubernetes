@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: sumar
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
@@ -26,6 +26,12 @@ spec:
               fieldPath: metadata.name
         image: manuexcd/sumar
         name: sumar
+        resources:
+           requests:
+              memory: "256Mi"
+              cpu: "300m"
+           limits:
+              memory: "512Mi"
+              cpu: "400m"
         ports:
         - containerPort: 8080
-      restartPolicy: Always
