@@ -35,3 +35,4 @@ spec:
               cpu: "400m"
         ports:
         - containerPort: 8080
+      restartPolicy: Never
