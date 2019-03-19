@@ -10,10 +10,10 @@ spec:
   minReplicas: 1
   maxReplicas: 10
   metrics:
-  - type: Resource
-    resource:
-      name: memory
-      targetAverageValue: 1000Mi
+  #- type: Resource
+    #resource:
+    #  name: memory
+    #  targetAverageValue: 1000Mi
   - type: Resource
     resource:
       name: cpu
