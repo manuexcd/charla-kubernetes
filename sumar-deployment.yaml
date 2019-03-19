@@ -30,9 +30,6 @@ spec:
            requests:
               memory: "256Mi"
               cpu: "300m"
-           limits:
-              memory: "512Mi"
-              cpu: "400m"
         ports:
         - containerPort: 8080
       #restartPolicy: Never
