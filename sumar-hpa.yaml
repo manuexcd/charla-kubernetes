@@ -13,7 +13,7 @@ spec:
   - type: Resource
     resource:
       name: memory
-      targetAverageValue: 50
+      targetAverageValue: 1000Mi
   - type: Resource
     resource:
       name: cpu
