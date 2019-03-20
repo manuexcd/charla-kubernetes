@@ -32,4 +32,3 @@ spec:
               cpu: "300m"
         ports:
         - containerPort: 8080
-      #restartPolicy: Never
